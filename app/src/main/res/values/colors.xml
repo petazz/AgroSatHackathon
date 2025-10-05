@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue_forgot">#2E96F5</color>
+    <color name="green_500">#071173</color> <!-- Verde moderno -->
+    <color name="green_login_btn">#0960E1</color>
+    <color name="light_gray">#F5F5F5</color> <!-- Fondo claro -->
+    <color name="gray">#808080</color>
+    <color name="light_green">#0042A6</color>
+    <color name="light_brown">#EAFE07</color>
+    <color name="fondo">#F8F1EA</color>
+    <color name="letras_textos_grandes">#2F4F4F</color>
+    <color name="fondo_progress_bar">#E43700</color>
+    <color name="barra_color_progress_bar">#8E1100</color>
+</resources>
+

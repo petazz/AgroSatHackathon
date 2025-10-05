@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F1EA"
+    tools:context=".View.MainActivity">
+
+    <TextView
+        android:id="@+id/text_login"
+        android:textColor="#2F4F4F"
+        android:textSize="32sp"
+        android:letterSpacing="0.05"
+        android:fontFamily="@font/poppins"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/rebordeado_login"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/app_name"/>
+
+    <LinearLayout
+        android:id="@+id/rebordeado_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_background_login"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center_horizontal"
+        android:elevation="8dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/user_et"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="@string/login_email"
+            android:autofillHints="emailAddress"
+            android:inputType="textEmailAddress"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:fontFamily="@font/poppins"
+            android:textColorHint="#8D6E63"
+            android:textColor="#2F4F4F"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:elevation="2dp"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/passwd_et"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="@string/login_password"
+            android:autofillHints="password"
+            android:inputType="textPassword"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:fontFamily="@font/poppins"
+            android:textColorHint="#8D6E63"
+            android:textColor="#2F4F4F"
+            android:textSize="16sp"
+            android:elevation="2dp"
+            android:gravity="center_vertical"/>
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_button"
+            android:text="@string/login_btn"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins"
+            android:elevation="4dp" />
+
+        <TextView
+            android:id="@+id/fgtpasswd_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginTop="10dp"
+            android:text="@string/login_fgtpswd"
+            android:textColor="#6B8E23"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

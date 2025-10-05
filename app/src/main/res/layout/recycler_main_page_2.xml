@@ -1,0 +1,49 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/rounded_recycler_options"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:elevation="2dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/plantName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#0960E1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:fontFamily="@font/poppins"
+            android:textSize="14sp"
+            android:textColor="#0960E1"
+            android:text = "@string/estado_general"/>
+    </FrameLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_gravity="end"
+        android:layout_width="104dp"
+        android:progressBackgroundTint="@color/green_login_btn"
+        android:progressTint="@color/green_500"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/plantSpecies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:fontFamily="@font/poppins"
+        android:textSize="14sp"
+        android:textColor="#0042A6"/>
+</LinearLayout>

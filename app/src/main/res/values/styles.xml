@@ -1,0 +1,21 @@
+<resources>
+    <!-- Estilo base para los botones -->
+    <style name="PlantButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:backgroundTint">@color/green_login_btn</item> <!-- Color de fondo -->
+        <item name="android:textColor">#FFFFFF</item> <!-- Color del texto -->
+        <item name="android:textSize">16sp</item> <!-- Tamaño del texto -->
+        <item name="android:padding">12dp</item> <!-- Padding interno -->
+        <item name="android:layout_margin">8dp</item> <!-- Margen externo -->
+        <item name="android:drawablePadding">8dp</item> <!-- Espaciado entre icono y texto -->
+        <item name="android:gravity">center</item> <!-- Centrar texto e icono -->
+    </style>
+    <style name="CustomBottomNavigationStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+        <!-- Color del ripple (hover) -->
+        <item name="colorControlHighlight">@color/light_green</item>
+        <item name="fontFamily">@font/poppins</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+</resources>

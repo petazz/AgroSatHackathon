@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_btn">Iniciar Sesión</string>
+    <string name="login_fgtpswd">¿Has olvidado tu contraseña?</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Contraseña</string>
+    <string name="main_no_internet">No hay conexión a internet. Porfavor, conectese a una red.</string>
+    <string name="bad_email">El correo es inválido o nulo.</string>
+    <string name="empty_passwd">La contraseña está vacía.</string>
+    <string name="dataHeaderText">Datos de la planta</string>
+    <string name="chatHeaderText">Chat de Voz</string>
+    <string name="chatSendButton">Enviar</string>
+    <string name="chatEditText">Escribe un mensaje…</string>
+    <string name="chatAudioBtn">Grabar audio</string>
+    <string name="my_plants">MIS PLANTAS</string>
+    <string name="estado_general">Estado General</string>
+    <string name="forgot_password_title">Has olvidado tu contraseña?</string>
+    <string name="send_code_button">Restaurar contraseña</string>
+    <string name="code_hint">Código</string>
+    <string name="verify_code_title">Verificar código</string>
+    <string name="verify_button">Verificar</string>
+    <string name="data_nav_menu">Datos</string>
+    <string name="chat_nav_menu">Chat</string>
+    <string name="error_chat_response">Error en la Respuesta de la planta</string>
+    <string name="bad_login">Correo o contraseña incorrectos.</string>
+    <string name="account_not_verified">Tu cuenta no ha sido verificada</string>
+    <string name="unkonwn_error">Error desconocido, contacte con soporte: support@gaialabs.es</string>
+    <string name="reset_password_title">Restablecer Contraseña</string>
+    <string name="new_password_hint">Nueva Contraseña</string>
+    <string name="confirm_password_hint">Confirmacion de Contraseña</string>
+    <string name="reset_password_button">Restablecer Contraseña</string>
+    <string name="operation_success">Operación terminada existosamente</string>
+
+</resources>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name" translatable="false">GaiaSense</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_btn">Login</string>
+    <string name="login_fgtpswd">Have you forgotten your password?</string>
+    <string name="main_no_internet">No internet connection. Please, connect to internet.</string>
+    <string name="bad_email">The email is invalid or null.</string>
+    <string name="empty_passwd">The password is empty.</string>
+    <string name="dataHeaderText">Plant Data</string>
+    <string name="chatHeaderText">Voice Chat</string>
+    <string name="chatSendButton">Send</string>
+    <string name="chatEditText">Text a message…</string>
+    <string name="chatAudioBtn">Record Audio</string>
+    <string name="chatGptKey" translatable="false">YOUR API KEY, </string>
+    <string name="my_plants">My Plants</string>
+    <string name="estado_general">General Status</string>
+    <string name="forgot_password_title">Did you forgot your password?</string>
+    <string name="send_code_button">Restore password</string>
+    <string name="code_hint">Code</string>
+    <string name="verify_code_title">Verify code</string>
+    <string name="verify_button">Verify</string>
+    <string name="data_nav_menu">Data</string>
+    <string name="chat_nav_menu">Chat</string>
+    <string name="error_chat_response">Error on the Response from the plant</string>
+    <string name="bad_login">Mail or password incorrect.</string>
+    <string name="account_not_verified">You account is not verified</string>
+    <string name="unkonwn_error">Unkown error, please contact with support: support@gaialabs.es</string>
+    <string name="reset_password_title">Reset Password</string>
+    <string name="new_password_hint">New Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="reset_password_button">Reset Password</string>
+    <string name="operation_success">Operation complete successfuly</string>
+
+</resources>

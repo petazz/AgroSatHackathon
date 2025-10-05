@@ -1,0 +1,43 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/rounded_recycler_options"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:elevation="2dp">
+
+    <!-- Nombre de la planta -->
+    <TextView
+        android:id="@+id/plantName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#0960E1"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="Capullo de Hamilín" />
+
+    <!-- Estado general debajo del nombre -->
+    <TextView
+        android:id="@+id/generalStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/poppins"
+        android:textSize="14sp"
+        android:textColor="#4E4E4E"
+        android:text="@string/estado_general" />
+
+    <!-- Barra de progreso en la parte inferior -->
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_marginTop="12dp"
+        android:progressBackgroundTint="@color/green_login_btn"
+        android:progressTint="@color/green_500" />
+</LinearLayout>

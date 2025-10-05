@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    tools:context=".View.DataFragment">
+
+    <TextView
+        android:id="@+id/dataHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:gravity="center"
+        android:textColor="@color/letras_textos_grandes"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Land Data"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="42dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_background_login"
+        android:elevation="2dp"
+        android:orientation="vertical"
+        >
+        <!-- RecyclerView para mostrar la lista de plantas -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvDataPlant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent" /> <!-- Fondo transparente -->
+    </LinearLayout>
+
+</FrameLayout>
